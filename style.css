@@ -2,7 +2,8 @@ body {
     background-color: #06090f;
     font-family: 'Saira', sans-serif;
     color: #fafafa;
-}
+    padding: 3%;
+    }
 .hab1 {
     font-size: 20px;
 }
@@ -17,9 +18,27 @@ body {
 }
 .picture {
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    float: left;
+    padding: 5px;
+    background-color: darkgrey;
+
 }
 a {
     text-decoration: none;
+}
+
+.image-conteiner {
+    height: 330px;
+}
+.name {
+    text-align: center;
+}
+.description {
+    font-family: monospace;
+    position: absolute;
+    left: 285px;
+}
+
+div {
+    border: 2px solid white;
+}
