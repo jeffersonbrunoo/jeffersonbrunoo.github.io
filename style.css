@@ -38,6 +38,9 @@ a {
     position: absolute;
     left: 285px;
 }
+li:nth-child(odd){
+    font-weight: bold;
+}
 
 div {
     border: 2px solid white;
